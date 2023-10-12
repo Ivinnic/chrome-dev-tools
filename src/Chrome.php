@@ -128,8 +128,8 @@
     }
   
     public function __destruct() {
-      if(!$this->pageClosed)
-        $this->Page->close();
+      // if(!$this->pageClosed)
+      //   $this->Page->close();
     }
     
     /**
